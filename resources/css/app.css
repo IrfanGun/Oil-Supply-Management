@@ -1,0 +1,20 @@
+@import '/node_modules/@fortawesome/fontawesome-free/css/all.css';
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.resize-none {
+    resize: none;
+}
+
+.no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;  
+}    
+
